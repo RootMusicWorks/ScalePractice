@@ -8,15 +8,49 @@
 </head>
 <body>
     <h1>Guitar Scale Practice App</h1>
+    <!-- タイトルを追加 -->
+    <h2>Metronome</h2>
 
-        <input type="number" id="tempo" value="120" min="20" max="240">
-        <button id="startStopButton">Start</button>
+    <input type="number" id="tempo" value="120" min="20" max="240">
+    <button id="startStopButton">Start</button>
 
     <br><br>
-
+    <!-- タイトルを追加 -->
+    <h2>Random Scale Generator</h2>
+    <!-- スケールのチェックボックス -->
+    <label class="checkbox-label">
+        <input type="checkbox" id="majorCheckbox"> Major
+    </label>
+    <label class="checkbox-label">
+        <input type="checkbox" id="minorCheckbox"> Minor
+    </label>
+    <label class="checkbox-label">
+        <input type="checkbox" id="majorpentaCheckbox"> Major Pentatonic
+    </label>
+    <label class="checkbox-label">
+        <input type="checkbox" id="minorpentaCheckbox"> Minor Pentatonic
+    </label>
+    <label class="checkbox-label">
+        <input type="checkbox" id="drianCheckbox"> Dorian
+    </label>
+    <label class="checkbox-label">
+        <input type="checkbox" id="mixsolydianCheckbox"> Mixsolydian
+    </label>
+    <label class="checkbox-label">
+        <input type="checkbox" id="melodicminorCheckbox"> Melodic Minor
+    </label>
+    <label class="checkbox-label">
+        <input type="checkbox" id="AlteredCheckbox"> Altered
+    </label>
+    <label class="checkbox-label">
+        <input type="checkbox" id="superlydianCheckbox"> Super Lydian
+    </label>
+    <!-- 他のスケールのチェックボックスも同様に追加 -->
+    <br>
     <button id="generateButton">Generate Random Info</button>
 
-
+    <!-- 表示されるランダム結果の前後にマージンを追加 -->
+    <div id="infoDisplay" style="margin-top: 20px; margin-bottom: 20px;"></div>
 
     <div id="infoDisplay"></div>
 

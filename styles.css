@@ -1,7 +1,7 @@
 /* styles.css */
 h1 {
-    margin-bottom: 20px;
-    font-size: 24px;
+    margin-bottom: 30px;
+    font-size: 36px;
     color: #333;
 }
 
@@ -11,4 +11,13 @@ h1 {
 
 #tempo, #startStopButton {
     margin-right: 10px;
+}
+
+.checkbox-label {
+    display: block;
+}
+/* タイトルのスタイル */
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
