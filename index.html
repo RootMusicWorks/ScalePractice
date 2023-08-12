@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guitar Practice App</title>
-    <style>
-        #infoDisplay {
-            font-size: 18px; /* 文字サイズを調整 */
-            padding: 20px; /* 余白を追加 */
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- 外部CSSファイルを読み込む -->
 </head>
 <body>
-    <h1>Guitar Practice App</h1>
+    <h1>Guitar Scale Practice App</h1>
+
+        <input type="number" id="tempo" value="120" min="20" max="240">
+        <button id="startStopButton">Start</button>
+
+    <br><br>
+
     <button id="generateButton">Generate Random Info</button>
+
+
+
     <div id="infoDisplay"></div>
 
     <script src="app.js"></script>

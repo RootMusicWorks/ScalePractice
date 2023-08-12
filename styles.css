@@ -1,0 +1,14 @@
+/* styles.css */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.centered {
+    text-align: center;
+}
+
+#tempo, #startStopButton {
+    margin-right: 10px;
+}
