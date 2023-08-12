@@ -3,6 +3,7 @@ const startStopButton = document.querySelector('#startStopButton');
 let isMetronomeRunning = false;
 let metronomeInterval;
 
+
 function playClick() {
     const clickSound = new Audio('click.mp3'); // 音声ファイルのパスを指定
     clickSound.play();
